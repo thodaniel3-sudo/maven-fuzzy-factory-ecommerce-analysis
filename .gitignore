@@ -1,0 +1,23 @@
+﻿# Raw data (may not be redistributable)
+01_Raw_Datasets/*.csv
+!01_Raw_Datasets/.gitkeep
+
+# Cleaned data (optional - remove this line if you want to share)
+02_Cleaned_Datasets/*.csv
+!02_Cleaned_Datasets/.gitkeep
+
+# Environment / secrets
+.env
+*.key
+*.pem
+API_KEYS.txt
+secrets/
+
+# System files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+~$*
