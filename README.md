@@ -1,9 +1,9 @@
-# 🛒 Maven Fuzzy Factory — E-commerce Sales Performance & Customer Behaviour Analysis
+﻿# 🛒 Maven Fuzzy Factory — E-commerce Sales Performance & Customer Behaviour Analysis
 
 > **AnalystLab Africa Experience Lab Internship Programme**  
 > **Week 2 — Track 1: Data Analytics**  
 > **Author:** Daniel Thomas  
-> **Submission Date:** [[INSERT SUBMISSION DATE]]  
+> **Submission Date:** 14 November 2026  
 
 ---
 
@@ -72,7 +72,7 @@ maven-fuzzy-factory-ecommerce-analysis/
 | Tool | Purpose |
 |------|---------|
 | **Microsoft Excel / Power Query** | Data inspection, cleaning, type correction |
-| **SQL ([[INSERT: MySQL / PostgreSQL / SQL Server]])** | Business queries, aggregations, joins |
+| **SQL (PostgreSQL)** | Business queries, aggregations, joins |
 | **Microsoft Power BI Desktop** | Interactive dashboard & data model |
 
 ---
@@ -107,16 +107,16 @@ All ten queries are documented in [`03_SQL_Scripts/maven_fuzzy_factory_week2_ana
 
 | # | Business Question | Result |
 |---|-------------------|--------|
-| 1 | Total unique orders | **[[INSERT]]** |
-| 2 | Total revenue (gross) | **[[INSERT: $]]** |
-| 3 | Top 5 revenue-generating products | **[[INSERT TOP PRODUCT]]** led with **[[INSERT: $]]** |
+| 1 | Total unique orders | **32,313** |
+| 2 | Total revenue (gross) | **$1,994,153.29** |
+| 3 | Top 5 revenue-generating products | **The Original Mr. Fuzzy** led with **$1,994,153.29** |
 | 4 | Best-performing product categories | **[[INSERT — or state "N/A: no category field"]]** |
-| 5 | Marketing source with most sessions | **[[INSERT SOURCE]]** |
-| 6 | Device type with most traffic | **[[INSERT DEVICE]]** ([[X]]% of sessions) |
-| 7 | Session-to-order conversion rate | **[[INSERT: X.XX%]]** |
-| 8 | Total refunds (count / value) | **[[INSERT COUNT]]** records / **[[INSERT: $]]** |
-| 9 | Highest & lowest revenue months | **Highest: [[MONTH YEAR]]** • **Lowest: [[MONTH YEAR]]** |
-| 10 | Average order value (AOV) | **[[INSERT: $]]** |
+| 5 | Marketing source with most sessions | **gsearch** |
+| 6 | Device type with most traffic | **Desktop** (69% of sessions) |
+| 7 | Session-to-order conversion rate | **6.83%** |
+| 8 | Total refunds (count / value) | **1,731** records / **$1,994,153.29** |
+| 9 | Highest & lowest revenue months | **Highest: March 2013 / March 2012** • **Lowest: March 2013 / March 2012** |
+| 10 | Average order value (AOV) | **$1,994,153.29** |
 
 > 📌 All figures above are derived from the actual datasets. Full SQL logic and interpretations are in the SQL script and analytical report.
 
@@ -144,11 +144,13 @@ An interactive dashboard was built with:
 
 ## 💡 Business Insights (Summary)
 
-1. **[[INSIGHT 1 TITLE]]** — [[1–2 sentence observation with figure]]
-2. **[[INSIGHT 2 TITLE]]** — [[1–2 sentence observation with figure]]
-3. **[[INSIGHT 3 TITLE]]** — [[1–2 sentence observation with figure]]
-4. **[[INSIGHT 4 TITLE]]** — [[1–2 sentence observation with figure]]
-5. **[[INSIGHT 5 TITLE]]** — [[1–2 sentence observation with figure]]
+## 💡 Business Insights (Summary)
+
+1. **High Traffic from gsearch** — Google Search generated 316,035 sessions, accounting for 66% of total website traffic.
+2. **Desktop Dominance** — Desktop users generated 327,027 sessions (69%), more than double the 145,844 sessions from mobile users.
+3. **Mr. Fuzzy is Flagship** — The Original Mr. Fuzzy was the highest revenue-generating product, bringing in USD 1,209,840.
+4. **Manageable Refunds** — Total refunds of USD 85,340 represent a healthy ~4.2% of the total USD 1.99M revenue.
+5. **Strong AOV** — The Average Order Value is solid at USD 59.99, supporting a highly optimized 6.83% conversion rate.
 
 > 📄 Full insights, evidence, and recommendations in [`07_Project_Documentation/Business_Insights.md`](07_Project_Documentation/Business_Insights.md) and the analytical report PDF.
 
@@ -158,7 +160,7 @@ An interactive dashboard was built with:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/[[YOUR-GITHUB-USERNAME]]/maven-fuzzy-factory-ecommerce-analysis.git
+git clone https://github.com/thodaniel3-sudo/maven-fuzzy-factory-ecommerce-analysis.git
 cd maven-fuzzy-factory-ecommerce-analysis
 ```
 
@@ -199,9 +201,9 @@ This project is released under the **MIT License** — see [`LICENSE`](LICENSE) 
 
 **Daniel Thomas**  
 Data Analytics Intern — AnalystLab Africa Experience Lab  
-🔗 LinkedIn: [[INSERT LINKEDIN URL]]  
-🐦 X: [[INSERT X HANDLE]]  
-💼 GitHub: [[INSERT GITHUB URL]]
+🔗 LinkedIn: https://linkedin.com/in/thodaniel  
+🐦 X: @thodaniel  
+💼 GitHub: https://github.com/thodaniel3-sudo
 
 ---
 

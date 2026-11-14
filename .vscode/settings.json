@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Maven Fuzzy Factory",
+            "username": "postgres",
+            "database": "maven_fuzzy_factory",
+            "password": "123"
+        }
+    ]
+}
